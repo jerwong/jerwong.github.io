@@ -1,12 +1,12 @@
 $('.mainNav a').click(
   function(){
-    $('.content-box').addClass('hide')
-    $( $(this).attr('href') ).removeClass('hide')
+    $('.content').addClass('invis')
+    $( $(this).attr('href') ).removeClass('invis')
   }
 )
 
-$('.btn-close').click(
+$('.Home').click(
   function(){
-    $(this).closest('.content-box').addClass('hide')
+    $(this).addClass('hide')
   }
 )
