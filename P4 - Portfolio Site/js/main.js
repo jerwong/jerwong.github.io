@@ -11,13 +11,14 @@ $(document).ready(function(){
     });
 });
 
-/*
+
 $(document).ready(function(){
     $('.loadingpage').addClass('byebye');
   }
 )
-*/
 
+/*
 $(document).ready('pageinit', function() {
     $('.loadingpage').addClass('byebye');
 });
+*/
