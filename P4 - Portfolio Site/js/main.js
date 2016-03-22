@@ -22,3 +22,16 @@ $(document).ready('pageinit', function() {
     $('.loadingpage').addClass('byebye');
 });
 */
+
+
+$('.bigimage').scroll(function(){
+    $("div").removeClass('hide');
+    $(".bigimage").addClass('hide');
+  }
+)
+
+$('#projectpage').click(function(){
+    $("div").removeClass('hide');
+    $(".bigimage").addClass('hide');
+  }
+)

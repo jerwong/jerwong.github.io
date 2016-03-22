@@ -162,7 +162,7 @@ p {
 
 .aboutme {
   width: 345px;
-  margin-top: 150px;
+  margin-top: 85px;
   float:left;
 }
 
@@ -231,6 +231,10 @@ p {
   opacity: 1;
   height: 20px;
   margin: 14px 0px 0px 0px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 .navmenu a {
@@ -353,10 +357,33 @@ margin-left: 125px;
   height: 75px;
 }
 
+.bigimage {
+  position:absolute;
+  top: 0px;
+  left: 124px;
+  width: auto;
+  height: 462px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  overflow: scroll;
+  box-shadow: 5px 5px 10px #888888;
+
+}
+.bigimage img{
+  width: 100%;
+}
+
+.bigimage::-webkit-scrollbar {
+    width:0px;
+}
+
 .casestudy {
   height:auto;
   width: auto;
   margin-top:50px;
+  position:relative;
 }
 
 .casestudyscroll {
@@ -379,6 +406,12 @@ margin-left: 125px;
   float: left;
   display: inline;
   margin-left: 36px;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+  transition-delay: .5s;
+
 }
 
 .casestudycontent h2 {
@@ -401,6 +434,11 @@ margin-left: 125px;
   margin-left: 20px;
   box-shadow: 5px 5px 10px #888888;
   width: 52%;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+  transition-delay: .75s;
 }
 
 .images img{
