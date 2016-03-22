@@ -30,8 +30,8 @@ $('.bigimage').scroll(function(){
   }
 )
 
-$('#projectpage').click(function(){
-    $("div").removeClass('hide');
+$('html').click(function(){
+    $('#projectpage div').removeClass('hide');
     $(".bigimage").addClass('hide');
   }
 )
