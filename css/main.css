@@ -423,8 +423,8 @@ margin-left: 125px;
   position:absolute;
   top: 0px;
   left: 124px;
-  width: auto;
-  height: 462px;
+  width: 75vw;
+  height: 35vw;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -435,6 +435,7 @@ margin-left: 125px;
 }
 .bigimage img{
   width: 100%;
+  height: auto;
 }
 
 .bigimage::-webkit-scrollbar {
