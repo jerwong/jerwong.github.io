@@ -1,0 +1,216 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Jeremy Wong - Communications Designer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/octopus.css">
+        <link rel="icon" type="image/png" href="favicon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="owl/owl.carousel.css">
+        <link rel="stylesheet" href="owl/owl.theme.default.css">
+        <link rel="stylesheet" type="text/css" href="jCapSlide/css/style.css"/>
+
+
+
+
+    </head>
+
+
+
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+
+        <!-- Set up your HTML -->
+        <div id="carousel" class="owl-carousel owl-theme" style="width: 50%;">
+
+            <div id="capslide_img_cont1" class="ic_container">
+                <img src="img/img/1.png" alt="1"/>
+                <div class="overlay" style="display:none;"></div>
+                <div class="ic_caption">
+                    <p class="ic_category">Category</p>
+                    <h3>Example 1</h3>
+                    <p class="ic_text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+
+            <div id="capslide_img_cont2" class="ic_container">
+                <img src="img/img/2.png" alt="2"/>
+                <div class="overlay" style="display:none;"></div>
+                <div class="ic_caption">
+                    <p class="ic_category">Category</p>
+                    <h3>Example 2</h3>
+                    <p class="ic_text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+
+            <div id="capslide_img_cont3" class="ic_container">
+                <img src="img/img/3.png" alt="3"/>
+                <div class="overlay" style="display:none;"></div>
+                <div class="ic_caption">
+                    <p class="ic_category">Category</p>
+                    <h3>Example 3</h3>
+                    <p class="ic_text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+
+            <div id="capslide_img_cont4" class="ic_container">
+                <img src="img/img/4.png" alt="4"/>
+                <div class="overlay" style="display:none;"></div>
+                <div class="ic_caption">
+                    <p class="ic_category">Category</p>
+                    <h3>Example 4</h3>
+                    <p class="ic_text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+
+            <div id="capslide_img_cont5" class="ic_container">
+                <img src="img/img/5.png" alt="5"/>
+                <div class="overlay" style="display:none;"></div>
+                <div class="ic_caption">
+                    <p class="ic_category">Category</p>
+                    <h3>Example 5</h3>
+                    <p class="ic_text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+
+            <div id="capslide_img_cont6" class="ic_container">
+                <img src="img/img/6.png" alt="6"/>
+                <div class="overlay" style="display:none;"></div>
+                <div class="ic_caption">
+                    <p class="ic_category">Category</p>
+                    <h3>Example 6</h3>
+                    <p class="ic_text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+
+<!--
+            <img src="img/img/1.png" alt="1"/>
+            <img src="img/img/2.png" alt="2"/>
+            <img src="img/img/3.png" alt="3"/>
+            <img src="img/img/4.png" alt="4"/>
+            <img src="img/img/5.png" alt="5"/>
+            <img src="img/img/6.png" alt="6"/>
+-->
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="jCapSlide/jquery.capSlide.js"></script>
+        <script src="owl/owl.carousel.min.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $("#carousel").owlCarousel ({
+                  autoplay: false,
+                  autoplayHoverPause: false,
+                  autoplayTimeout: 3500,
+                  items: 3,
+                  slideBy: 3,
+                  loop: true,
+                  margin: 20,
+                  nav: true,
+                  navText: [
+                    "<i class='fa fa-arrow-left'></i>",
+                    "<i class='fa fa-arrow-right'></i>"
+                    ],
+                  animateOut:'fadeOut',
+                })
+            })
+
+            $(function() {
+              $("#capslide_img_cont1").capslide({
+                  caption_color	: 'white',
+                  caption_bgcolor	: '',
+                  overlay_bgcolor : 'black',
+                  border			: '',
+                  showcaption	    : true,
+              });
+              $("#capslide_img_cont2").capslide({
+                  caption_color	: 'white',
+                  caption_bgcolor	: '',
+                  overlay_bgcolor : 'black',
+                  border			: '',
+                  showcaption	    : true,
+              });
+              $("#capslide_img_cont3").capslide({
+                  caption_color	: 'white',
+                  caption_bgcolor	: '',
+                  overlay_bgcolor : 'black',
+                  border			: '',
+                  showcaption	    : true,
+              });
+              $("#capslide_img_cont4").capslide({
+                  caption_color	: 'white',
+                  caption_bgcolor	: '',
+                  overlay_bgcolor : 'black',
+                  border			: '',
+                  showcaption	    : true,
+              });
+              $("#capslide_img_cont5").capslide({
+                  caption_color	: 'white',
+                  caption_bgcolor	: '',
+                  overlay_bgcolor : 'black',
+                  border			: '',
+                  showcaption	    : true,
+              });
+              $("#capslide_img_cont6").capslide({
+                  caption_color	: 'white',
+                  caption_bgcolor	: '',
+                  overlay_bgcolor : 'black',
+                  border			: '',
+                  showcaption	    : true,
+              });
+
+            });
+          </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<!--
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+-->
+
+    </body>
+</html>

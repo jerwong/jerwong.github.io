@@ -1,12 +1,27 @@
-$('.mainNav a').click(
+$('#nav-icon3,#nav-icon3grey').click(
   function(){
-    $('.content').addClass('invis')
-    $( $(this).attr('href') ).removeClass('invis')
+    $('.navmenu').toggleClass('hide')
   }
 )
 
-$('.Home').click(
-  function(){
-    $(this).addClass('hide')
+
+$(document).ready(function(){
+    $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4,#nav-icon3grey').click(function(){
+        $(this).toggleClass('open');
+    });
+});
+
+$('.enter').click(function(){
+   $('.loadingpage').addClass('byebye');
+});
+
+$('.bigimage').scroll(function(){
+    $("div").removeClass('hide');
+    $(".bigimage").addClass('hide');
+  });
+
+$('.casestudy').click(function(){
+    $('#projectpage div').removeClass('hide');
+    $(".bigimage").addClass('hide');
   }
 )
