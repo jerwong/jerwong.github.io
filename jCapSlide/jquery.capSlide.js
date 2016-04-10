@@ -4,10 +4,10 @@
 		return this.each(function() {
 			$this = $(this);
 			var o = $.meta ? $.extend({}, opts, $this.data()) : opts;
-			
+
 			if(!o.showcaption)	$this.find('.ic_caption').css('display','none');
 			else $this.find('.ic_text').css('display','none');
-				
+
 			var _img = $this.find('img:first');
 			var w = _img.css('width');
 			var h = _img.css('height');
@@ -23,7 +23,7 @@
 					if(!o.showcaption)
 						$(this).find('.ic_caption').slideDown(500);
 					else
-						$('.ic_text',$(this)).slideDown(500);	
+						$('.ic_text',$(this)).slideDown(500);
 				},
 				function () {
 					if((navigator.appVersion).indexOf('MSIE 7.0') > 0)
@@ -38,6 +38,10 @@
 			);
 		});
 	};
+
+
+
+
 	$.fn.capslide.defaults = {
 		caption_color	: 'white',
 		caption_bgcolor	: 'black',

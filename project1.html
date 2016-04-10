@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Jeremy Wong - Communications Designer</title>
+        <title>Hello, It's Me</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,6 +21,8 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link rel="stylesheet" href="owl/owl.carousel.css">
         <link rel="stylesheet" href="owl/owl.theme.default.css">
+        <link rel="stylesheet" type="text/css" href="jCapSlide/css/style.css"/>
+
     </head>
 
 
@@ -114,21 +116,70 @@ The theme of green ooze came about to support his zany nature, which became the 
 <p>Due to the hypothetical nature of the project, it is impossible to measure the effectiveness of in a real world scenario. Instead, I determined success based on user testing. The criteria consisted of: overall unity, representation of Pierce, connection with the audience, and differentiation. The feedback was very positive, and based on the criteria, the project was successful.
 </p><p>
 Side note – Here’s a video of him making a song with his burp. It’s a great representation of his personality.
-
+<br><br>
 <a href="https://www.youtube.com/watch?v=wu3sZ4968L0">https://www.youtube.com/watch?v=wu3sZ4968L0</a>
 </p>
         </div> <!--casestudycontent close-->
       </div> <!--Scroll div close-->
 
 
-      <div id="carousel" class="owl-carousel owl-theme projectcarousel hide" style="width: 52%;">
-          <img src="img/img/1.png" alt="1">
-          <img src="img/img/2.png" alt="2">
-          <img src="img/img/3.png" alt="3">
-          <img src="img/img/4.png" alt="4">
-          <img src="img/img/5.png" alt="5">
-          <img src="img/img/6.png" alt="6">
-      </div>
+      <div id="carousel" class="owl-carousel owl-theme projectcarousel hide" style="width: 50%">
+
+
+        <div id="capslide_img_cont1" class="ic_container">
+            <img src="img/p1_1.jpg" alt="1"/>
+            <div class="overlay" style="display:none;"></div>
+            <div class="ic_caption">
+                <p class="ic_category">Get Weird App</p>
+                <h3>Home Page</h3>
+                <p class="ic_text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+
+        <div id="capslide_img_cont2" class="ic_container">
+          <img src="img/p1_2.jpg" alt="2"/>
+            <div class="overlay" style="display:none;"></div>
+            <div class="ic_caption">
+                <p class="ic_category">Get Weird App</p>
+                <h3>Podcast Page</h3>
+                <p class="ic_text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+
+        <div id="capslide_img_cont3" class="ic_container">
+          <img src="img/p1_3.jpg" alt="3"/>
+            <div class="overlay" style="display:none;"></div>
+            <div class="ic_caption">
+                <p class="ic_category">Website</p>
+                <h3>Home Page</h3>
+                <p class="ic_text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+
+        <div id="capslide_img_cont4" class="ic_container">
+          <img src="img/p1_4.jpg" alt="4"/>
+            <div class="overlay" style="display:none;"></div>
+            <div class="ic_caption">
+                <p class="ic_category">Website</p>
+                <h3>Music Page</h3>
+                <p class="ic_text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+
+
+      </div> <!-- Carousel Close -->
 
 <!--
 
@@ -152,12 +203,14 @@ Side note – Here’s a video of him making a song with his burp. It’s a grea
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="owl/owl.carousel.min.js"></script>
+        <script src="jCapSlide/jquery.capSlide.js"></script>
+
 
         <script>
             $(document).ready(function() {
                 $("#carousel").owlCarousel ({
-                  autoplay: true,
-                  autoplayHoverPause: true,
+                  autoplay: false,
+                  autoplayHoverPause: false,
                   autoplayTimeout: 3500,
                   items: 1,
                   loop: true,
@@ -171,8 +224,18 @@ Side note – Here’s a video of him making a song with his burp. It’s a grea
                 })
             })
 
+            $(window).on("load", function() {
+              $(".ic_container").capslide({
+                  caption_color	: 'white',
+                  caption_bgcolor	: '',
+                  overlay_bgcolor : 'black',
+                  border			: '',
+                  showcaption	    : true,
+              });
 
-        </script>
+            });
+          </script>
+
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

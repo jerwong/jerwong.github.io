@@ -337,35 +337,52 @@ p {
 
 
 /* Work Page */
-.maskcontainer {
-  width: 100%;
-  height: auto;
-  position: relative;
+.workcarousel {
+  position:relative;
+  margin-top: 100px;
+  box-shadow: 0;
 }
 
-.maskshape {
-  float:left;
-  display:inline;
-  width:50%;
-  margin-left: -750px;
+
+
+.workimage img {
+    width:100%;
+    vertical-align:top;
 }
-.maskshape.following {
-  margin-left: -175px;
+.workimage h1,h2 {
+  position: fixed;
+  z-index: 1;
+  color: white;
 }
 
-/*
-.maskshape {
-  max-width:568px;
-  width:100%;
-  max-height: 725px;
-  height:100%;
-  margin-left:-100px;
+.workimage:after, .workimage:before {
+    position:absolute;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.workimage:after {
+    content:'\A';
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+}
+.workimage:before {
+    width:100%;
+    color:#fff;
+    z-index:1;
+    bottom:0;
+    padding:4px 10px;
+    text-align:center;
+    background:red;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    background:rgba(0,0,0,0.9);
+}
+.workimage:hover:after, .image:hover:before {
+    opacity:1;
 }
 
-.maskshape.following {
-  margin-left: -224px;
-}
-*/
 /* Project Page */
 
 .projectintro {
