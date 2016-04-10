@@ -349,7 +349,7 @@ p {
     width:100%;
     vertical-align:top;
 }
-.workimage h1,h2 {
+.workimage h1,.workimage h2 {
   position: fixed;
   z-index: 1;
   color: white;
