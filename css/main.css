@@ -203,14 +203,14 @@ p {
 .intro {
   font-family: 'octopus_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
   font-weight: lighter;
-  font-size: 24pt;
+  font-size: 28pt;
   letter-spacing: -1pt;
-  margin-bottom: 36px;
+  margin-bottom: 22px;
 }
 
 .aboutme {
-  width: 345px;
-  margin-top: 100px;
+  width: 34vw;
+  margin-top: 130px;
   float:left;
 }
 
@@ -235,7 +235,7 @@ p {
 }
 
 .aboutme h2 {
-  font-size: 12pt;
+  font-size: 10.5pt;
   font-family: 'Droid Sans','Helvetica',sans-serif;
   font-weight: bold;
   letter-spacing: -0.1pt;
@@ -245,7 +245,11 @@ p {
   font-size: 10.5pt;
   font-family: 'Droid Sans','Helvetica',sans-serif;
   letter-spacing: -0.1pt;
-  margin-top: 10px;
+  margin-top: 15px;
+}
+
+.contacth2 {
+  margin-top: 34px;
 }
 
 .me {
@@ -441,12 +445,12 @@ margin-left: 125px;
   top: 0px;
   left: 124px;
   width: 75vw;
-  height: 35vw;
+  height: 37vw;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
-  overflow: scroll;
+  overflow: auto;
   box-shadow: 5px 5px 10px #888888;
 
 }
@@ -575,7 +579,7 @@ border-radius: 0px;
 
 #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
   width: 35px;
-  height: 45px;
+  height: 27px;
   position: relative;
   margin: 19px 0px 0px 0px;
   float:right;
@@ -592,7 +596,7 @@ border-radius: 0px;
 
 #nav-icon3grey {
   width: 35px;
-  height: 45px;
+  height: 27px;
   position: relative;
   margin: 19px 0px 0px 0px;
   float:right;
