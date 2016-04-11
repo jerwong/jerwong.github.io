@@ -17,7 +17,6 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link rel="stylesheet" href="owl/owl.carousel.css">
         <link rel="stylesheet" href="owl/owl.theme.default.css">
@@ -231,6 +230,23 @@ Side note – Here’s a video of him making a song with his burp. It’s a grea
                   overlay_bgcolor : 'black',
                   border			: '',
                   showcaption	    : true,
+              });
+
+              $(window).on("resize", function() {
+                var container = $('.ic_container');
+                container.css({
+                  width: "",
+                  height: ""
+                });
+                window.setTimeout(function(){
+                  var _img = container.find('img:first');
+                  var w = _img.css('width');
+            			var h = _img.css('height');
+                  console.log(w,h);
+                  $('.ic_caption',container).css({width:w});
+                  container.css({width:w , height:h});
+                }, 1000);
+
               });
 
             });

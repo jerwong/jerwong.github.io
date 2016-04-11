@@ -353,39 +353,56 @@ p {
     width:100%;
     vertical-align:top;
 }
-.workimage h1,.workimage h2 {
-  position: fixed;
+
+.workimage h1 {
+  font-family: 'octopus_narrow_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
+  font-weight: lighter;
+  font-size: 40pt;
+  letter-spacing: -1pt;
+  margin: 20px 0px 0px 0px;
+  text-align: center;
+  text-decoration:none;
+  color:white;
+  }
+
+.workimage h2 {
+  font-family: 'octopus_narrow_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
+  font-weight: lighter;
+  font-size: 20pt;
+  letter-spacing: -1pt;
+  margin: -7px 0px;
+  text-align: center;
+  text-decoration:none;
+  color:white;
+  }
+
+  .workimage h3 {
+    font-family: 'octopus_narrow_100', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
+    font-weight: lighter;
+    font-size: 20pt;
+    letter-spacing: -1pt;
+    margin-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    }
+
+.workoverlay {
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 100%;
   z-index: 1;
-  color: white;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
-.workimage:after, .workimage:before {
-    position:absolute;
-    opacity:0;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+.workoverlay:hover {
+  background: rgba(0, 0, 0, 0.3);
 }
-.workimage:after {
-    content:'\A';
-    width:100%; height:100%;
-    top:0; left:0;
-    background:rgba(0,0,0,0.6);
-}
-.workimage:before {
-    width:100%;
-    color:#fff;
-    z-index:1;
-    bottom:0;
-    padding:4px 10px;
-    text-align:center;
-    background:red;
-    box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    background:rgba(0,0,0,0.9);
-}
-.workimage:hover:after, .image:hover:before {
-    opacity:1;
-}
+
 
 /* Project Page */
 
@@ -451,7 +468,9 @@ margin-left: 125px;
   -o-transition: all 1s ease;
   transition: all 1s ease;
   overflow: auto;
-  box-shadow: 5px 5px 10px #888888;
+  -webkit-box-shadow: 5px 5px 26px -5px rgba(0,0,0,0.65);
+  -moz-box-shadow: 5px 5px 26px -5px rgba(0,0,0,0.65);
+  box-shadow: 5px 5px 26px -5px rgba(0,0,0,0.65);
 
 }
 .bigimage img{
@@ -529,8 +548,9 @@ margin-left: 125px;
   display:inline;
   float:right;
   margin-left: 20px;
-  box-shadow: 5px 5px 10px #888888;
-  width: 52%;
+  -webkit-box-shadow: 5px 5px 26px -5px rgba(0,0,0,0.65);
+  -moz-box-shadow: 5px 5px 26px -5px rgba(0,0,0,0.65);
+  box-shadow: 5px 5px 26px -5px rgba(0,0,0,0.65);  width: 52%;
   -webkit-transition: all 1.5s ease;
   -moz-transition: all 1.5s ease;
   -o-transition: all 1.5s ease;
