@@ -198,6 +198,7 @@ p {
   float:left;
   width: 91px;
   height: 50px;
+  margin-top: 5px;
 }
 
 .intro {
@@ -358,7 +359,7 @@ p {
   font-family: 'octopus_narrow_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
   font-weight: lighter;
   font-size: 40pt;
-  letter-spacing: -1pt;
+  letter-spacing: -0.1pt;
   margin: 20px 0px 0px 0px;
   text-align: center;
   text-decoration:none;
@@ -369,7 +370,7 @@ p {
   font-family: 'octopus_narrow_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
   font-weight: lighter;
   font-size: 20pt;
-  letter-spacing: -1pt;
+  letter-spacing: -0.1pt;
   margin: -7px 0px;
   text-align: center;
   text-decoration:none;
@@ -380,7 +381,7 @@ p {
     font-family: 'octopus_narrow_100', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
     font-weight: lighter;
     font-size: 20pt;
-    letter-spacing: -1pt;
+    letter-spacing: -0.1pt;
     margin-top: 0px;
     text-align: center;
     text-decoration: none;
@@ -468,9 +469,10 @@ margin-left: 125px;
   -o-transition: all 1s ease;
   transition: all 1s ease;
   overflow: auto;
-  -webkit-box-shadow: 5px 5px 26px -5px rgba(0,0,0,0.65);
-  -moz-box-shadow: 5px 5px 26px -5px rgba(0,0,0,0.65);
-  box-shadow: 5px 5px 26px -5px rgba(0,0,0,0.65);
+  -webkit-box-shadow: 5px 5px 16px -5px rgba(0,0,0,0.65);
+  -moz-box-shadow: 5px 5px 16px -5px rgba(0,0,0,0.65);
+  box-shadow: 5px 5px 16px -5px rgba(0,0,0,0.65);
+
 
 }
 .bigimage img{
@@ -824,18 +826,8 @@ border-radius: 0px;
     /* Style adjustments for high resolution devices */
 }
 
-@media (max-width: 768px) {
 
-  .loadingpage {
-    width: 100%;
-    height: 100%;
-    position:absolute;
-    background-color: white;
-    top:0;
-    left:0;
-    transition: all 3s cubic-bezier(0.77, 0, 0.175, 1);
-    transition-delay: .25s;
-  }
+@media (max-width: 768px) {
 
   .homeinfo{
     position:fixed;
@@ -850,49 +842,6 @@ border-radius: 0px;
     letter-spacing: -1pt;
   }
 
-  .medescriptor {
-    font-family: 'octopus_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
-    font-weight: lighter;
-    font-size: 14pt;
-    letter-spacing: 0pt;
-    margin-top: -25px;
-  }
-
-  .enter {
-    font-family: 'octopus_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
-    font-weight: lighter;
-    text-align:center;
-    font-size: 18pt;
-    margin-top: 50px;
-    color:#B2B2B2;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .enter:hover {
-    color: black;
-    cursor: pointer;
-  }
-
-  .loader{
-    position:fixed;
-    top:50%;
-    left:50%;
-    margin-top: -50px;
-    margin-left: -80px;
-  }
-
-  .loader img {
-
-  }
-
-  .byebye {
-    opacity:0;
-    visibility:hidden;
-  }
-
   .wrap {
     margin: 35px;
     width: auto;
@@ -900,31 +849,8 @@ border-radius: 0px;
     position:relative;
   }
 
-  .greylogo {
-    fill: #B2B2B2;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .greylogo:hover {
-    fill: black;
-  }
-
-  .logo {
-    float:left;
-    width: 91px;
-    height: 50px;
-  }
-
   .intro {
-    font-family: 'octopus_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
-    font-weight: lighter;
-    font-size: 28pt;
-    letter-spacing: -1pt;
-    margin-bottom: 22px;
-  }
+}
 
   .aboutme {
     width: 60vw;
@@ -932,129 +858,9 @@ border-radius: 0px;
     float:left;
   }
 
-  .contactinfo {
-    font-family: 'Droid Sans', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
-    font-weight: lighter;
-    font-size: 14pt;
-    margin-top: 15px;
-  }
-
-  .contactinfo a{
-    text-decoration: none;
-    color: #B2B2B2;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .contactinfo a:hover{
-    color: black;
-  }
-
-  .aboutme h2 {
-    font-size: 10.5pt;
-    font-family: 'Droid Sans','Helvetica',sans-serif;
-    font-weight: bold;
-    letter-spacing: -0.1pt;
-  }
-
-  .aboutme p {
-    font-size: 10.5pt;
-    font-family: 'Droid Sans','Helvetica',sans-serif;
-    letter-spacing: -0.1pt;
-    margin-top: 15px;
-  }
-
-  .contacth2 {
-    margin-top: 34px;
-  }
-
-  .me {
-    float: right;
-    width: 60%;
-    height: auto;
-    position: fixed;
-    bottom:0;
-    right:0;
-  }
-
-  .me img{
-    width: 90%;
-    height: auto;
-  }
-
-  .workhome {
-    font-family: "octopus_narrow_300", sans-serif;
-    font-size: 25pt;
-    text-decoration:none;
-    color: #B2B2B2;
-    position: fixed;
-    right: 75px;
-    top: 400px;
-    height: 38px;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .workhome:hover {
-    color:black;
-  }
-
-  .navmenu a.selected{
-    color:black;
-  }
-
-
-
   .navmenu {
-    float:right;
-    transition: all .35s ease-in-out;
-    opacity: 1;
-    height: 20px;
     margin: 14px 0px 0px 0px;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .navmenu a {
-    color:#B2B2B2;
-    text-decoration:none;
-    font-family: "octopus_narrow_300", sans-serif;
-    font-size: 18pt;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .navmenu a:hover {
-    color:black;
-  }
-
-  .navmenu ul {
-    margin: 0;
-  }
-
-  .navmenu li {
-    list-style: none;
-    display: inline-block;
-    padding-right: 20px;
-  }
-
-  .hide {
-    opacity: 0;
-    transform: translatey(-50%);
-    visibility:hidden;
-  }
-
-  .grey {
-    color: #B2B2B2;
-  }
+}
 
   /* Project Page */
 
@@ -1063,45 +869,16 @@ border-radius: 0px;
   }
 
   .projectname {
-    font-family: "octopus_narrow_300", sans-serif;
-    font-size: 20pt;
-    margin:0;
-  }
+}
 
   .projectdescription {
-    font-family: "octopus_narrow_100", sans-serif;
-    font-size: 20pt;
-    margin:-8px 0 0 0;
-  }
+}
 
   .sidebar {
-    position:absolute;
-    top: 125px;
-    left: -37px;
-  }
+}
 
   .sidebar a {
-    color:#B2B2B2;
-    text-decoration:none;
-    font-family: "octopus_narrow_100", sans-serif;
-    font-size: 45pt;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .sidebar a.selected {
-    color:black;
-  }
-
-  .sidebar a:hover {
-    color:black;
-  }
-
-  .sidebar ul {
-    margin: 0;
-  }
+}
 
   .sidebar li {
     list-style: none;
@@ -1111,28 +888,6 @@ border-radius: 0px;
 
   .bigimage {
     display: none;
-    position:absolute;
-    top: 0px;
-    left: 124px;
-    width: 75vw;
-    height: 37vw;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-    overflow: auto;
-    -webkit-box-shadow: 5px 5px 26px -5px rgba(0,0,0,0.65);
-    -moz-box-shadow: 5px 5px 26px -5px rgba(0,0,0,0.65);
-    box-shadow: 5px 5px 26px -5px rgba(0,0,0,0.65);
-
-  }
-  .bigimage img{
-    width: 100%;
-    height: auto;
-  }
-
-  .bigimage::-webkit-scrollbar {
-      width:0px;
   }
 
   .casestudy {
@@ -1145,87 +900,30 @@ border-radius: 0px;
   .casestudyscroll {
     height:500px;
     width:80%;
-    min-width: 275px;
-    overflow-y:auto;
-    overflow-x:hidden;
-    direction: rtl;
-    margin-left: 90px;
-    margin-bottom: 50px;
-    border-left: 1px solid #B2B2B2;
-    float:left;
-    display:inline;
-  }
+}
 
   .casestudycontent {
-    overflow:visible;
-    direction: ltr;
-    float: left;
-    display: inline;
-    margin-left: 36px;
-    -webkit-transition: all 0s ease;
+-webkit-transition: all 0s ease;
     -moz-transition: all 0s ease;
     -o-transition: all 0s ease;
     transition: all 0s ease;
     transition-delay: 0s;
 
-  }
-
-  .casestudycontent h2 {
-    font-size: 10.5pt;
-    font-family: 'Droid Sans','Helvetica',sans-serif;
-    font-weight: bold;
-    letter-spacing: -0.1pt;
-  }
-
-  .casestudycontent p {
-    font-size: 10.5pt;
-    font-family: 'Droid Sans','Helvetica',sans-serif;
-    letter-spacing: -0.1pt;
-    margin-top: 10px;
-  }
-
-  .casestudy a{
-    text-decoration: none;
-    color: #B2B2B2;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .casestudy a:hover{
-    color: black;
   }
 
   .projectcarousel {
-    display:inline;
-    float:right;
-    margin-left: 20px;
-    -webkit-transition: all 0s ease;
+-webkit-transition: all 0s ease;
     -moz-transition: all 0s ease;
     -o-transition: all 0s ease;
     transition: all 0s ease;
     transition-delay: 0s;
   }
-
-
 
 }
 
 
 
 @media (max-width: 414px) {
-
-  .loadingpage {
-    width: 100%;
-    height: 100%;
-    position:absolute;
-    background-color: white;
-    top:0;
-    left:0;
-    transition: all 3s cubic-bezier(0.77, 0, 0.175, 1);
-    transition-delay: .25s;
-  }
 
   .homeinfo{
     position:fixed;
@@ -1248,58 +946,11 @@ border-radius: 0px;
     margin-top: -19px;
   }
 
-  .enter {
-    font-family: 'octopus_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
-    font-weight: lighter;
-    text-align:center;
-    font-size: 18pt;
-    margin-top: 50px;
-    color:#B2B2B2;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .enter:hover {
-    color: black;
-    cursor: pointer;
-  }
-
-  .loader{
-    position:fixed;
-    top:50%;
-    left:50%;
-    margin-top: -50px;
-    margin-left: -80px;
-  }
-
-  .loader img {
-
-  }
-
-  .byebye {
-    opacity:0;
-    visibility:hidden;
-  }
-
   .wrap {
     margin: 35px;
     width: auto;
     height: auto;
     position:relative;
-  }
-
-  .greylogo {
-    fill: #B2B2B2;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .greylogo:hover {
-    fill: black;
   }
 
   .logo {
@@ -1309,142 +960,22 @@ border-radius: 0px;
   }
 
   .intro {
-    font-family: 'octopus_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
-    font-weight: lighter;
-    font-size: 28pt;
-    letter-spacing: -1pt;
-    margin-bottom: 22px;
-  }
+}
 
   .aboutme {
     width: auto;
-    margin-top: 75px;
+    margin-top: 50px;
     float:left;
   }
 
-  .contactinfo {
-    font-family: 'Droid Sans', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
-    font-weight: lighter;
-    font-size: 14pt;
-    margin-top: 15px;
-  }
-
-  .contactinfo a{
-    text-decoration: none;
-    color: #B2B2B2;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .contactinfo a:hover{
-    color: black;
-  }
-
-  .aboutme h2 {
-    font-size: 10.5pt;
-    font-family: 'Droid Sans','Helvetica',sans-serif;
-    font-weight: bold;
-    letter-spacing: -0.1pt;
-  }
-
-  .aboutme p {
-    font-size: 10.5pt;
-    font-family: 'Droid Sans','Helvetica',sans-serif;
-    letter-spacing: -0.1pt;
-    margin-top: 15px;
-  }
-
-  .contacth2 {
-    margin-top: 34px;
-  }
-
-  .me {
-    float: right;
-    width: 60%;
-    height: auto;
-    position: fixed;
-    bottom:0;
-    right:0;
-  }
-
-  .me img{
-    width: 90%;
-    height: auto;
-  }
-
-  .workhome {
-    font-family: "octopus_narrow_300", sans-serif;
-    font-size: 25pt;
-    text-decoration:none;
-    color: #B2B2B2;
-    position: fixed;
-    right: 75px;
-    top: 400px;
-    height: 38px;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .workhome:hover {
-    color:black;
-  }
-
-  .navmenu a.selected{
-    color:black;
-  }
-
-
 
   .navmenu {
-    float:right;
-    transition: all .35s ease-in-out;
-    opacity: 1;
-    height: 20px;
     margin: 7px 0px 0px 0px;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
+}
 
   .navmenu a {
-    color:#B2B2B2;
-    text-decoration:none;
-    font-family: "octopus_narrow_300", sans-serif;
     font-size: 15pt;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .navmenu a:hover {
-    color:black;
-  }
-
-  .navmenu ul {
-    margin: 0;
-  }
-
-  .navmenu li {
-    list-style: none;
-    display: inline-block;
-    padding-right: 20px;
-  }
-
-  .hide {
-    opacity: 0;
-    transform: translatey(-50%);
-    visibility:hidden;
-  }
-
-  .grey {
-    color: #B2B2B2;
-  }
+}
 
   /* Project Page */
 
@@ -1454,150 +985,34 @@ border-radius: 0px;
   }
 
   .projectname {
-    font-family: "octopus_narrow_300", sans-serif;
     font-size: 17pt;
-    margin:0;
   }
 
   .projectdescription {
-    font-family: "octopus_narrow_100", sans-serif;
     font-size: 17pt;
-    margin:-8px 0 0 0;
+    margin:-5px 0 0 0;
   }
 
   .sidebar {
     display: none;
-    position:absolute;
-    top: 125px;
-    left: -37px;
-  }
-
-  .sidebar a {
-    color:#B2B2B2;
-    text-decoration:none;
-    font-family: "octopus_narrow_100", sans-serif;
-    font-size: 45pt;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .sidebar a.selected {
-    color:black;
-  }
-
-  .sidebar a:hover {
-    color:black;
-  }
-
-  .sidebar ul {
-    margin: 0;
-  }
-
-  .sidebar li {
-    list-style: none;
-    display: block;
-    height: 75px;
-  }
+}
 
   .bigimage {
     display: none;
-    position:absolute;
-    top: 0px;
-    left: 124px;
-    width: 75vw;
-    height: 37vw;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-    overflow: auto;
-    -webkit-box-shadow: 5px 5px 26px -5px rgba(0,0,0,0.65);
-    -moz-box-shadow: 5px 5px 26px -5px rgba(0,0,0,0.65);
-    box-shadow: 5px 5px 26px -5px rgba(0,0,0,0.65);
-
-  }
-  .bigimage img{
-    width: 100%;
-    height: auto;
-  }
-
-  .bigimage::-webkit-scrollbar {
-      width:0px;
   }
 
   .casestudy {
-    height:auto;
-    width: auto;
     margin-top:30px;
-    position:relative;
   }
 
   .casestudyscroll {
     height:280px;
     width:100%;
-    min-width: 275px;
-    overflow-y:auto;
-    overflow-x:hidden;
-    direction: rtl;
     margin-left: 0px;
     margin-bottom: 30px;
-    border-left: 1px solid #B2B2B2;
-    float:left;
-    display:inline;
-  }
+}
 
   .casestudycontent {
-    overflow:visible;
-    direction: ltr;
-    float: left;
-    display: inline;
-    margin-left: 36px;
-    -webkit-transition: all 0s ease;
-    -moz-transition: all 0s ease;
-    -o-transition: all 0s ease;
-    transition: all 0s ease;
-    transition-delay: 0s;
-
-  }
-
-  .casestudycontent h2 {
-    font-size: 10.5pt;
-    font-family: 'Droid Sans','Helvetica',sans-serif;
-    font-weight: bold;
-    letter-spacing: -0.1pt;
-  }
-
-  .casestudycontent p {
-    font-size: 10.5pt;
-    font-family: 'Droid Sans','Helvetica',sans-serif;
-    letter-spacing: -0.1pt;
-    margin-top: 10px;
-  }
-
-  .casestudy a{
-    text-decoration: none;
-    color: #B2B2B2;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .casestudy a:hover{
-    color: black;
-  }
-
-  .projectcarousel {
-    display:inline;
-    float:right;
-    margin-left: 20px;
-    -webkit-transition: all 0s ease;
-    -moz-transition: all 0s ease;
-    -o-transition: all 0s ease;
-    transition: all 0s ease;
-    transition-delay: 0s;
   }
 
   /* Navi Stuff */
@@ -1605,36 +1020,14 @@ border-radius: 0px;
   #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
     width: 35px;
     height: 27px;
-    position: relative;
     margin: 10px 0px 0px 0px;
-    float:right;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    cursor: pointer;
-  }
+}
 
   #nav-icon3grey {
     width: 35px;
     height: 27px;
-    position: relative;
     margin: 10px 0px 0px 0px;
-    float:right;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    cursor: pointer;
-  }
+}
 
 }
 
