@@ -23,5 +23,13 @@ $('.bigimage').scroll(function(){
 $('.casestudy').click(function(){
     $('#projectpage div').removeClass('hide');
     $(".bigimage").addClass('hide');
-  }
-)
+  });
+
+
+  $(document).ready(function(){
+
+     var current_width = $(window).width();
+     //do something with the width value here!
+     if(current_width < 500)
+     $('#projectpage div').removeClass('hide');
+     });
