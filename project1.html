@@ -191,6 +191,7 @@ Side note – Here’s a video of him making a song with his burp. It’s a grea
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/caption.js"></script>
         <script src="owl/owl.carousel.min.js"></script>
         <script src="jCapSlide/jquery.capSlide.js"></script>
 
@@ -211,34 +212,6 @@ Side note – Here’s a video of him making a song with his burp. It’s a grea
                     ],
                   animateOut:'fadeOut',
                 })
-            });
-
-            $(window).on("load", function() {
-              $(".ic_container").capslide({
-                  caption_color	: 'white',
-                  caption_bgcolor	: '',
-                  overlay_bgcolor : 'black',
-                  border			: '',
-                  showcaption	    : true,
-              });
-
-              $(window).on("resize", function() {
-                var container = $('.ic_container');
-                container.css({
-                  width: "",
-                  height: ""
-                });
-                window.setTimeout(function(){
-                  var _img = container.find('img:first');
-                  var w = _img.css('width');
-            			var h = _img.css('height');
-                  console.log(w,h);
-                  $('.ic_caption',container).css({width:w});
-                  container.css({width:w , height:h});
-                }, 1000);
-
-              });
-
             });
           </script>
 

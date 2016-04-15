@@ -30,6 +30,6 @@ $('.casestudy').click(function(){
 
      var current_width = $(window).width();
      //do something with the width value here!
-     if(current_width < 500)
+     if(current_width < 768)
      $('#projectpage div').removeClass('hide');
      });

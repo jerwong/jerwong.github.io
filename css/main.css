@@ -1110,6 +1110,7 @@ border-radius: 0px;
   }
 
   .bigimage {
+    display: none;
     position:absolute;
     top: 0px;
     left: 124px;
@@ -1161,11 +1162,11 @@ border-radius: 0px;
     float: left;
     display: inline;
     margin-left: 36px;
-    -webkit-transition: all 1.5s ease;
-    -moz-transition: all 1.5s ease;
-    -o-transition: all 1.5s ease;
-    transition: all 1.5s ease;
-    transition-delay: .5s;
+    -webkit-transition: all 0s ease;
+    -moz-transition: all 0s ease;
+    -o-transition: all 0s ease;
+    transition: all 0s ease;
+    transition-delay: 0s;
 
   }
 
@@ -1200,11 +1201,11 @@ border-radius: 0px;
     display:inline;
     float:right;
     margin-left: 20px;
-    -webkit-transition: all 1.5s ease;
-    -moz-transition: all 1.5s ease;
-    -o-transition: all 1.5s ease;
-    transition: all 1.5s ease;
-    transition-delay: .75s;
+    -webkit-transition: all 0s ease;
+    -moz-transition: all 0s ease;
+    -o-transition: all 0s ease;
+    transition: all 0s ease;
+    transition-delay: 0s;
   }
 
 
