@@ -105,7 +105,7 @@ p {
 }
 
 .noshow {
-  display: none;
+  display: none !important;
 }
 
 .loadingpage {
@@ -355,12 +355,20 @@ p {
     vertical-align:top;
 }
 
+.worktext {
+  width: 100%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
 .workimage h1 {
   font-family: 'octopus_narrow_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
   font-weight: lighter;
   font-size: 40pt;
   letter-spacing: -0.1pt;
-  margin: 20px 0px 0px 0px;
+  margin: 0px;
   text-align: center;
   text-decoration:none;
   color:white;
@@ -382,14 +390,14 @@ p {
     font-weight: lighter;
     font-size: 20pt;
     letter-spacing: -0.1pt;
-    margin-top: 0px;
+    margin: 0px;
     text-align: center;
     text-decoration: none;
     color:white;
     }
 
 .workoverlay {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -403,7 +411,6 @@ p {
 .workoverlay:hover {
   background: rgba(0, 0, 0, 0.3);
 }
-
 
 /* Project Page */
 
@@ -862,6 +869,71 @@ border-radius: 0px;
     margin: 14px 0px 0px 0px;
 }
 
+/* Work Page Stuff */
+.mobileworkitems {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.mobileworkimage {
+  margin-bottom: 20px;
+  position:relative;
+}
+
+.mobileworkimage img {
+    width:100%;
+    vertical-align:top;
+}
+
+.mobileworktext {
+  width: 100%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.mobileworkimage h1 {
+  font-family: 'octopus_narrow_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
+  font-weight: lighter;
+  font-size: 40pt;
+  letter-spacing: -0.1pt;
+  margin: 0px;
+  text-align: center;
+  text-decoration:none;
+  color:white;
+  }
+
+.mobileworkimage h2 {
+  font-family: 'octopus_narrow_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
+  font-weight: lighter;
+  font-size: 20pt;
+  letter-spacing: -0.1pt;
+  margin: -7px 0px;
+  text-align: center;
+  text-decoration:none;
+  color:white;
+  }
+
+  .mobileworkimage h3 {
+    font-family: 'octopus_narrow_100', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
+    font-weight: lighter;
+    font-size: 20pt;
+    letter-spacing: -0.1pt;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    }
+
+.mobileworkoverlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
   /* Project Page */
 
   .projectintro {
@@ -977,6 +1049,23 @@ border-radius: 0px;
     font-size: 15pt;
 }
 
+/* Work Page Stuff */
+.mobileworkitems {
+  display: inline-block;
+  margin-top: 35px;
+}
+
+.mobileworkimage h1 {
+  font-size: 33pt;
+}
+
+.mobileworkimage h2 {
+  font-size: 18pt;
+}
+
+.mobileworkimage h3 {
+  font-size: 18pt;
+}
   /* Project Page */
 
   .projectintro {

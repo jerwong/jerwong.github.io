@@ -32,4 +32,8 @@ $('.casestudy').click(function(){
      //do something with the width value here!
      if(current_width <= 768)
      $('#projectpage div').removeClass('hide');
+     if(current_width <= 768)
+     $('#workpage #carousel').addClass('noshow');
+     if(current_width <= 768)
+     $('.mobileworkitems').removeClass('noshow');
      });
