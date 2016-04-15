@@ -53,7 +53,7 @@
  */
 .owl-carousel {
   display: none;
-  width: 100%;
+  width: 50%;
   -webkit-tap-highlight-color: transparent;
   /* position relative and z-index fix webkit rendering fonts issue */
   position: relative;
@@ -143,6 +143,12 @@
 /* No Js */
 .no-js .owl-carousel {
   display: block;
+}
+
+@media (max-width: 768px) {
+  .owl-carousel {
+    width: 100%;
+  }
 }
 
 /*
