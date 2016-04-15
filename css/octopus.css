@@ -4,7 +4,7 @@
     src: url('../fonts/octopus_narrow_300-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/octopus_narrow_300-webfont.woff2') format('woff2'),
          url('../fonts/octopus_narrow_300-webfont.woff') format('woff'),
-         url('../fonts/octopus_narrow_300-webfont.otf') format('opentype'),
+         url('../fonts/octopus_narrow_300-webfont.ttf') format('truetype'),
          url('../fonts/octopus_narrow_300-webfont.svg#octopus_narrow_300') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -16,7 +16,7 @@
     src: url('../fonts/octopus_narrow_100-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/octopus_narrow_100-webfont.woff2') format('woff2'),
          url('../fonts/octopus_narrow_100-webfont.woff') format('woff'),
-         url('../fonts/octopus_narrow_100-webfont.otf') format('opentype'),
+         url('../fonts/octopus_narrow_100-webfont.ttf') format('truetype'),
          url('../fonts/octopus_narrow_100-webfont.svg#octopus_narrow_100') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -31,7 +31,7 @@
     src: url('../fonts/octopus_300-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/octopus_300-webfont.woff2') format('woff2'),
          url('../fonts/octopus_300-webfont.woff') format('woff'),
-         url('../fonts/octopus_300-webfont.otf') format('opentype'),
+         url('../fonts/octopus_300-webfont.ttf') format('truetype'),
          url('../fonts/octopus_300-webfont.svg#octopus_300') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -43,7 +43,7 @@
     src: url('../fonts/octopus_100-webfont.eot?#iefix') format('embedded-opentype'),
          url('octopus_100-webfont.woff2') format('woff2'),
          url('octopus_100-webfont.woff') format('woff'),
-         url('octopus_100-webfont.otf') format('opentype'),
+         url('octopus_100-webfont.ttf') format('truetype'),
          url('../fonts/octopus_100-webfont.svg#octopus_100') format('svg');
     font-weight: normal;
     font-style: normal;
