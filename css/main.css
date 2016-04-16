@@ -207,18 +207,20 @@ p {
   color: black;
 }
 
+.footer h1,h2 {
+  font-size: 20px;
+}
+
 .footer h1 {
   margin: 20px 0px 0px 0px;
   font-family: 'octopus_narrow_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
   font-weight: lighter;
-  font-size: 15pt;
 }
 
 .footer h2 {
   margin: -5px 0px 0px 0px;
   font-family: 'octopus_narrow_100', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
   font-weight: lighter;
-  font-size: 15pt;
 }
 
 .prevproject {
