@@ -208,7 +208,7 @@ p {
 }
 
 .footer h1,h2 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .footer h1 {
@@ -1089,6 +1089,10 @@ border-radius: 0px;
 .footer h1{
   margin: 0px;
 
+}
+
+.footer h1,h2 {
+  font-size: 20px;
 }
 
   .aboutme {
