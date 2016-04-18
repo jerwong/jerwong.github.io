@@ -592,6 +592,9 @@ margin-left: 125px;
 }
 
 .casestudy a{
+  font-size: 10.5pt;
+  font-family: 'Droid Sans','Helvetica',sans-serif;
+  letter-spacing: -0.1pt;
   text-decoration: none;
   color: #B2B2B2;
   -webkit-transition: all 500ms ease;
