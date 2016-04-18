@@ -11,9 +11,22 @@ $(document).ready(function(){
     });
 });
 
+
+$(document).ready(function(){
+  if ($('.loadingpage').hasClass('.byebye')) {
+    $('#wrap').removeClass('hideme');
+  }
+
+  if ($('.loadingpage').not('.byebye')) {
+    $('#wrap').addClass('hideme');
+  }
+});
+
 $('.enter').click(function(){
    $('.loadingpage').addClass('byebye');
+   $('#wrap').removeClass('hideme');
 });
+
 
 $('.bigimage').scroll(function(){
     $("div").removeClass('hide');
@@ -30,10 +43,10 @@ $('.casestudy').click(function(){
 
      var current_width = $(window).width();
      //do something with the width value here!
-     if(current_width <= 768)
+     if(current_width <= 875)
      $('#projectpage div').removeClass('hide');
-     if(current_width <= 768)
+     if(current_width <= 875)
      $('#workpage #carousel').addClass('noshow');
-     if(current_width <= 768)
+     if(current_width <= 875)
      $('.mobileworkitems').removeClass('noshow');
      });

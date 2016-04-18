@@ -108,6 +108,10 @@ p {
   display: none !important;
 }
 
+.hideme {
+  display: none;
+}
+
 .loadingpage {
   width: 100%;
   height: 100%;
@@ -307,7 +311,7 @@ p {
 
 .me {
   float: right;
-  width: 60%;
+  width: 55%;
   height: auto;
   position: fixed;
   bottom:0;
@@ -888,7 +892,7 @@ border-radius: 0px;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 875px) {
 
   .homeinfo{
     position:fixed;
@@ -917,6 +921,23 @@ border-radius: 0px;
     width: 60vw;
     margin-top: 125px;
     float:left;
+  }
+
+  .me {
+    width: 63%;
+    height: auto;
+    position: relative;
+  }
+
+  .me img{
+    width: 100%;
+    height: auto;
+  }
+
+  .workhome {
+    position: absolute;
+    left: -39%;
+    top: 20%;
   }
 
   .navmenu {
@@ -1050,7 +1071,7 @@ border-radius: 0px;
 
 
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
 
   .homeinfo{
     position:fixed;
@@ -1072,6 +1093,23 @@ border-radius: 0px;
     letter-spacing: 0pt;
     margin-top: -19px;
   }
+
+  .me {
+    width: 75%;
+    height: auto;
+    position: relative;
+  }
+
+  .me img{
+    width: 100%;
+    height: auto;
+  }
+
+  .workhome {
+    font-size: 20pt;
+    left: -34%;
+  }
+
 
   .wrap {
     margin: 35px;

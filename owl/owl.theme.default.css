@@ -63,7 +63,7 @@
   background: black;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 875px) {
   .owl-theme .owl-dots .owl-dot {
     display: inline-block;
     zoom: 1;
