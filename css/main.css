@@ -125,7 +125,7 @@ p {
 
 .homeinfo{
   position:fixed;
-  bottom:40%;
+  bottom:45%;
   right: 100px;
 }
 
@@ -166,8 +166,7 @@ p {
   position:fixed;
   top:50%;
   left:50%;
-  margin-top: -50px;
-  margin-left: -80px;
+  transform:translate(-50%,-50%);
 }
 
 .loader img {
@@ -401,7 +400,6 @@ p {
 .workcarousel {
   position:relative;
   margin-top: 100px;
-  box-shadow: 0;
 }
 
 
@@ -619,7 +617,7 @@ margin-left: 125px;
   -moz-transition: all 1.5s ease;
   -o-transition: all 1.5s ease;
   transition: all 1.5s ease;
-  transition-delay: .75s;
+  transition-delay: .85s;
 }
 
 

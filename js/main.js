@@ -33,7 +33,7 @@ $('.bigimage').scroll(function(){
     $(".bigimage").addClass('hide');
   });
 
-$('.casestudy').click(function(){
+$('html').click(function(){
     $('#projectpage div').removeClass('hide');
     $(".bigimage").addClass('hide');
   });
