@@ -291,14 +291,14 @@ p {
 }
 
 .aboutme h2 {
-  font-size: 10.5pt;
+  font-size: 10pt;
   font-family: 'Droid Sans','Helvetica',sans-serif;
   font-weight: bold;
   letter-spacing: -0.1pt;
 }
 
 .aboutme p {
-  font-size: 10.5pt;
+  font-size: 10pt;
   font-family: 'Droid Sans','Helvetica',sans-serif;
   letter-spacing: -0.1pt;
   margin-top: 15px;
@@ -580,21 +580,21 @@ margin-left: 125px;
 }
 
 .casestudycontent h2 {
-  font-size: 10.5pt;
+  font-size: 10pt;
   font-family: 'Droid Sans','Helvetica',sans-serif;
   font-weight: bold;
   letter-spacing: -0.1pt;
 }
 
 .casestudycontent p {
-  font-size: 10.5pt;
+  font-size: 10pt;
   font-family: 'Droid Sans','Helvetica',sans-serif;
   letter-spacing: -0.1pt;
   margin-top: 10px;
 }
 
 .casestudy a{
-  font-size: 10.5pt;
+  font-size: 10pt;
   font-family: 'Droid Sans','Helvetica',sans-serif;
   letter-spacing: -0.1pt;
   text-decoration: none;
