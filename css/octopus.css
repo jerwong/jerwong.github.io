@@ -50,7 +50,6 @@
     font-family: 'octopus_narrow_500';
     src: url('../fonts/octopus_narrow_500-webfont.eot');
     src: url('../fonts/octopus_narrow_500-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/octopus_narrow_500-webfont.woff2') format('woff2'),
          url('../fonts/octopus_narrow_500-webfont.woff') format('woff'),
          url('../fonts/octopus_narrow_500-webfont.ttf') format('truetype'),
          url('../fonts/octopus_narrow_500-webfont.svg#octopus_narrow_500') format('svg');
@@ -62,7 +61,6 @@
     font-family: 'octopus_500';
     src: url('../fonts/octopus_500-webfont.eot');
     src: url('../fonts/octopus_500-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/octopus_500-webfont.woff2') format('woff2'),
          url('../fonts/octopus_500-webfont.woff') format('woff'),
          url('../fonts/octopus_500-webfont.ttf') format('truetype'),
          url('../fonts/octopus_500-webfont.svg#octopus_500') format('svg');
