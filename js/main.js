@@ -27,15 +27,19 @@ $('.enter').click(function(){
    $('#wrap').removeClass('hideme');
 });
 
-
+/* Big Image
 $('.bigimage').scroll(function(){
     $("div").removeClass('hide');
     $(".bigimage").addClass('hide');
   });
 
-$('html').click(function(){
+$('html').ready(function(){
     $('#projectpage div').removeClass('hide');
     $(".bigimage").addClass('hide');
+  });
+*/
+$('html').ready(function(){
+    $('#projectpage div').removeClass('byebye');
   });
 
 

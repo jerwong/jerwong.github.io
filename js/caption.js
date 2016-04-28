@@ -17,7 +17,6 @@ $(window).on("load", function() {
       var _img = container.find('img:first');
       var w = _img.css('width');
       var h = _img.css('height');
-      console.log(w,h);
       $('.ic_caption',container).css({width:w});
       container.css({width:w , height:h});
     }, 1500);
