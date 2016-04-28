@@ -890,7 +890,7 @@ border-radius: 0px;
 }
 
 
-@media (max-width: 875px) {
+@media (max-width: 1025px) {
 
   .homeinfo{
     position:fixed;

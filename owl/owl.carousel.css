@@ -145,7 +145,7 @@
   display: block;
 }
 
-@media (max-width: 875px) {
+@media (max-width: 1025px) {
   .owl-carousel {
     width: 100%;
   }

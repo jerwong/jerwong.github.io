@@ -43,10 +43,10 @@ $('html').click(function(){
 
      var current_width = $(window).width();
      //do something with the width value here!
-     if(current_width <= 875)
+     if(current_width <= 1025)
      $('#projectpage div').removeClass('hide');
-     if(current_width <= 875)
+     if(current_width <= 1025)
      $('#workpage #carousel').addClass('noshow');
-     if(current_width <= 875)
+     if(current_width <= 1025)
      $('.mobileworkitems').removeClass('noshow');
      });
