@@ -50,9 +50,3 @@
     margin-top: 10px;
   }
 }
-
-@media (max-width: 1025px) {
-  .ic_caption h3 {
-    font-family: "octopus_narrow_300", sans-serif;
-  }
-}
