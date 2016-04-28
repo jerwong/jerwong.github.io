@@ -997,7 +997,7 @@ border-radius: 0px;
   }
 
   .mobileworkimage h3 {
-    font-family: 'octopus_narrow_100', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
+    font-family: 'octopus_narrow_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
     font-weight: lighter;
     font-size: 20pt;
     letter-spacing: -0.1pt;
@@ -1023,6 +1023,10 @@ border-radius: 0px;
   background: rgba(0, 0, 0, 0.3);
 }
 
+.footer h2 {
+  font-family: 'octopus_narrow_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
+}
+
 .code {
   display: none;
 }
@@ -1040,7 +1044,8 @@ border-radius: 0px;
   .projectname {
 }
 
-  .projectdescription {
+.projectdescription {
+  font-family: "octopus_narrow_300", sans-serif;
 }
 
   .sidebar {
