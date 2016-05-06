@@ -1023,14 +1023,6 @@ border-radius: 0px;
   background: rgba(0, 0, 0, 0.3);
 }
 
-.footer h1 {
-  font-family: 'octopus_narrow_500', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
-}
-
-.footer h2 {
-  font-family: 'octopus_narrow_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
-}
-
 .code {
   display: none;
 }
@@ -1044,15 +1036,6 @@ border-radius: 0px;
   .projectintro {
   margin-left: 125px;
   }
-
-  .projectname {
-  font-family: "octopus_narrow_500", sans-serif;
-
-}
-
-.projectdescription {
-  font-family: "octopus_narrow_300", sans-serif;
-}
 
   .sidebar {
 }
@@ -1098,6 +1081,25 @@ border-radius: 0px;
     transition: all 0s ease;
     transition-delay: 0s;
     margin-top: 50px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .projectname {
+  font-family: "octopus_narrow_500", sans-serif;
+  }
+
+  .projectdescription {
+    font-family: "octopus_narrow_300", sans-serif;
+  }
+
+  .footer h1 {
+    font-family: 'octopus_narrow_500', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
+  }
+
+  .footer h2 {
+    font-family: 'octopus_narrow_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
   }
 
 }
