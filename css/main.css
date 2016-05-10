@@ -217,13 +217,13 @@ p {
 .footer h1 {
   margin: 20px 0px 0px 0px;
   font-family: 'octopus_narrow_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .footer h2 {
   margin: -5px 0px 0px 0px;
   font-family: 'octopus_narrow_100', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .prevproject {
@@ -910,12 +910,6 @@ border-radius: 0px;
 
 @media (max-width: 1025px) {
 
-  h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
-
-  font-weight: normal;
-
-  }
-
   .homeinfo{
     position:fixed;
     bottom:40%;
@@ -1103,6 +1097,13 @@ border-radius: 0px;
 }
 
 @media (max-width: 768px) {
+
+  h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
+
+  font-weight: normal;
+
+  }
+
   .projectname {
   font-family: "octopus_narrow_500", sans-serif;
   }
