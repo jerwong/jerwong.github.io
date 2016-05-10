@@ -187,7 +187,6 @@ p {
 
 .header {
   width: 100%;
-  height: 55px;
 }
 
 .footer {
@@ -548,7 +547,6 @@ margin-left: 125px;
 .casestudy {
   height:auto;
   width: auto;
-  margin-top: 100px;
   position:relative;
 }
 
@@ -610,7 +608,7 @@ margin-left: 125px;
 }
 
 .scopeinfo {
-  margin-top: 22px;
+  margin: 22px 0px 32px 0px;
 }
 
 .scopeinfo p {
@@ -1257,11 +1255,10 @@ border-radius: 0px;
   }
 
   .casestudy {
-    margin-top:145px;
   }
 
   .scopeinfo {
-    margin-top: 10px;
+    margin: 10px 0px 20px 0px;
   }
 
   .casestudyscroll {
