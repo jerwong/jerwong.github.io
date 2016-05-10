@@ -33,14 +33,27 @@
   font-size:20px;
   padding:0 0 0 15px;
   margin:0 0 -3px 0;
+  font-weight: normal;
 }
 
 .ic_caption h3{
   font-family: "octopus_narrow_100", sans-serif;
-    padding:0px 5px 5px 15px;
-    margin:0px;
-    font-size:20px;
+  padding:0px 5px 5px 15px;
+  margin:0px;
+  font-size:20px;
+  font-weight: normal;
 }
+
+@media (max-width: 768px) {
+  .ic_category{
+    font-family: "octopus_narrow_500", sans-serif;
+  }
+
+  .ic_caption h3{
+    font-family: "octopus_narrow_300", sans-serif;
+  }
+}
+
 .ic_text{
     padding:0 5px 15px 15px;
     margin:0 0px 0 0;
