@@ -97,6 +97,32 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/cookie.js"></script>
+
+
+        <script type="text/JavaScript">
+          $(document).ready(function() {
+            // COOKIES
+            // if the cookie is true, hide the initial message and show the other one
+            if ($.cookie('hide-after-load') == 'yes') {
+              $('.loadingpage').addClass('noshow');
+            }
+            // add cookie to hide the first message after load (on refresh it will be hidden)
+            $.cookie('hide-after-load', 'yes', {expires: 7 });
+            //reset the cookies (not shown in tutorial)
+            $('.reset').click(function() {
+              // check that if it was cliked before or not
+              if (!$(this).hasClass('clicked')) {
+                // add class that the link is clicked and shot the footer with delay
+                $(this).addClass('clicked');
+                // add cookie setting that user has clicked
+                $.cookie('hide-after-load', 'no', {expires: 7 });
+                $.cookie('hide-after-click', 'no', {expires: 7 });
+              }
+              location.reload();
+            });
+          });
+        </script>
 
 
         <script type="text/JavaScript">
