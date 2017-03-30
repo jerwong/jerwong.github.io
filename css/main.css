@@ -164,7 +164,7 @@ p {
 
 .loader{
   position:fixed;
-  top:50%;
+  top:57%;
   left:50%;
   transform:translate(-50%,-50%);
 }
@@ -1101,6 +1101,13 @@ border-radius: 0px;
 
   }
 
+  .homeinfo{
+    position:fixed;
+    bottom:20%;
+    right: 50%;
+    transform:translate(50%,-50%);
+  }
+
   .projectname {
   font-family: "octopus_narrow_500", sans-serif;
   }
@@ -1124,6 +1131,13 @@ border-radius: 0px;
   .underconstruction {
     font-size: 18pt;
     line-height: 1.2;
+  }
+
+  .loader{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
   }
 
   .homeinfo{
