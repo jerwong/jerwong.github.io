@@ -1101,7 +1101,7 @@ border-radius: 0px;
 
   .homeinfo {
     position:fixed;
-    bottom:20%;
+    bottom:15%;
     right: 50%;
     transform:translate(50%,-50%);
   }
