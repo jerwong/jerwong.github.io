@@ -907,7 +907,7 @@ border-radius: 0px;
 
 @media (max-width: 1025px) {
 
-  .homeinfo{
+  .homeinfo {
     position:fixed;
     bottom:40%;
     right: 5%;
@@ -1096,12 +1096,10 @@ border-radius: 0px;
 @media (max-width: 769px) {
 
   h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
-
-  font-weight: normal;
-
+    font-weight: normal;
   }
 
-  .homeinfo{
+  .homeinfo {
     position:fixed;
     bottom:20%;
     right: 50%;
