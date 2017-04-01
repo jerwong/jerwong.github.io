@@ -14,7 +14,6 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/octopus.css">
         <link rel="icon" type="image/png" href="favicon.png">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -25,7 +24,7 @@
 
         <!-- Add your site or application content here -->
 
-        <div class="wrap">
+        <section id="wrap" class="wrap">
           <div class="header">
         <a class="reset" href=""><img class="logo" src="projects/img/logo.svg" alt="jerwong logo" width=91px height=50px></a>
 
@@ -64,15 +63,7 @@
             <br>
             <a href="https://www.instagram.com/jer_wong/">@jer_wong</a>
           </p>
-<!-- ICONS
 
-<p><i class="fa fa-phone" style="font-size: 19px;margin-right:20px"></i>604.828.4879
-  <br>
-  <i class="fa fa-envelope" style="font-size: 15px;margin-right:20px"></i><a href="mailto:hi@jerwong.ca">hi@jerwong.ca</a>
-  <br>
-  <i class="fa fa-instagram" style="font-size: 18px;margin-right:20px"></i><a href="https://www.instagram.com/jer_wong/">jer_wong</a>
-</p>
--->
       </div>
         </div>
 
@@ -83,12 +74,53 @@
 
       </div> <!--wrap close-->
 
+<section class="loadingpage">
+
+  <div class="loader">
+    <img src="projects/img/JWLogo.gif" alt="jerwong logo .gif" width="160" height="98">
+  <h1 class="enter">enter</h1>
+</div>
+
+
+<div class="homeinfo">
+<h1 class="jeremywong">Jeremy Wong</h1>
+<h2 class="medescriptor">Communications Designer</h2>
+</div>
+
+</section>
+
 
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/cookie.js"></script>
+
+
+        <script type="text/JavaScript">
+          $(document).ready(function() {
+            // COOKIES
+            // if the cookie is true, hide the initial message and show the other one
+            if ($.cookie('hide-after-load') == 'yes') {
+              $('.loadingpage').addClass('noshow');
+            }
+            // add cookie to hide the first message after load (on refresh it will be hidden)
+            $.cookie('hide-after-load', 'yes', {expires: 7 });
+            //reset the cookies (not shown in tutorial)
+            $('.reset').click(function() {
+              // check that if it was cliked before or not
+              if (!$(this).hasClass('clicked')) {
+                // add class that the link is clicked and shot the footer with delay
+                $(this).addClass('clicked');
+                // add cookie setting that user has clicked
+                $.cookie('hide-after-load', 'no', {expires: 7 });
+                $.cookie('hide-after-click', 'no', {expires: 7 });
+              }
+              location.reload();
+            });
+          });
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <!--
