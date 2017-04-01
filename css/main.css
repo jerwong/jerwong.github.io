@@ -1171,6 +1171,7 @@ border-radius: 0px;
     position:fixed;
     bottom:14%;
     right: 19%;
+    transform: translate(0%,0%);
   }
 
   .jeremywong {
