@@ -432,34 +432,32 @@ p {
     vertical-align:top;
 }
 
-.worktext {
-  width: 100%;
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-}
-
 .workimage h1 {
   font-family: 'octopus_narrow_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
   font-weight: lighter;
   font-size: 40pt;
-
   margin: 0px;
   text-align: center;
   text-decoration:none;
-  color:white;
+  color: rgba(255, 255, 255, 0) !important;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
   }
 
 .workimage h2 {
   font-family: 'octopus_narrow_300', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
   font-weight: lighter;
   font-size: 20pt;
-
   margin: -7px 0px;
   text-align: center;
   text-decoration:none;
-  color:white;
+  color: rgba(255, 255, 255, 0) !important;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
   }
 
   .workimage h3 {
@@ -469,11 +467,39 @@ p {
     margin: 0px;
     text-align: center;
     text-decoration: none;
-    color:white;
+    color: rgba(255, 255, 255, 0) !important;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    }
+
+    .workimage:hover h1 {
+      color: rgba(255, 255, 255, 1) !important;
+      -webkit-transition: all 500ms ease;
+      -moz-transition: all 500ms ease;
+      -o-transition: all 500ms ease;
+      transition: all 500ms ease;
+    }
+
+    .workimage:hover h2 {
+      color: rgba(255, 255, 255, 1) !important;
+      -webkit-transition: all 500ms ease;
+      -moz-transition: all 500ms ease;
+      -o-transition: all 500ms ease;
+      transition: all 500ms ease;
+    }
+
+    .workimage:hover h3 {
+      color: rgba(255, 255, 255, 1) !important;
+      -webkit-transition: all 500ms ease;
+      -moz-transition: all 500ms ease;
+      -o-transition: all 500ms ease;
+      transition: all 500ms ease;
     }
 
 .workoverlay {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -485,7 +511,15 @@ p {
 }
 
 .workoverlay:hover {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.worktext {
+  width: 100%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Project Page */
