@@ -29,11 +29,12 @@
     filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);
 }
 .ic_category{
-  font-family: "octopus_narrow_300", sans-serif;
+  font-family: 'Roboto','Helvetica',sans-serif;
   font-size:20px;
   padding:0 0 0 15px;
   margin:0 0 -6px 0;
-  font-weight: normal;
+  font-weight: 400;
+  letter-spacing: .5px !important;
 }
 
 .ic_caption h3{
@@ -43,17 +44,19 @@
   padding:0px 5px 25px 15px;
   margin:0px;
   font-weight: 400;
+  letter-spacing: .5px;
 }
 
 @media (max-width: 768px) {
   .ic_category{
-    font-family: "octopus_narrow_500", sans-serif;
+    font-family: 'Roboto','Helvetica',sans-serif;
+    font-size: 12px;
   }
 
   .ic_caption h3{
-    font-size: 10pt;
+    font-size: 7pt;
     font-family: 'Roboto','Helvetica',sans-serif;
-    letter-spacing: -0pt;
+    padding:3px 5px 15px 15px;
   }
 }
 
